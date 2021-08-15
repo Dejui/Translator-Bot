@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from googletrans import Translator
 
-FayasNoushad = Client(
+ @dejen_tech Client(
     "Translator Bot",
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
@@ -20,19 +20,19 @@ FayasNoushad = Client(
 START_TEXT = """
 Hello {}, I am a google translator telegram bot.
 
-Made by @FayasNoushad
+Made by @Dreamer_Man_29
 """
 HELP_TEXT = """
 - Just send a text with language code
 
 example :- `This is a sample text | ml`
 
-Made by @FayasNoushad
+Made by @Dreamer_Man_29
 """
 ABOUT_TEXT = """
 - **Bot :** `Translator Bot`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+- **Creator :** [@Dreamer_Man_29   )
+- **Channel :** [@dejen_tech)
 - **Source :** [Click here](https://github.com/FayasNoushad/Translator-Bot)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)
@@ -69,7 +69,7 @@ CLOSE_BUTTON = InlineKeyboardMarkup(
     )
 TRANSLATE_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('⚙ Join Update chananlsl⚙', url='https://telegram.me/FayasNoushad')
         ]]
     )
 DEFAULT_LANGUAGE = os.environ.get("DEFAULT_LANGUAGE", "en")
